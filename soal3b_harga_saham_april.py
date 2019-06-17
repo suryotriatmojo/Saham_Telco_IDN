@@ -23,12 +23,12 @@ plt.plot(smart_apr['Date'], smart_apr['Close'], color = 'cyan', label = 'PT Smar
 plt.plot(indosat_apr['Date'], indosat_apr['Close'], color = 'blue', label = 'PT Indosat Tbk')
 plt.plot(telkom_apr['Date'], telkom_apr['Close'], color = 'red', label = 'PT Telekomunikasi Indonesia Tbk')
 
-plt.title('Harga Historis Saham Provider Telco Indonesia (April 2019)')
+plt.suptitle('Harga Historis Saham Provider Telco Indonesia (April 2019)')
 plt.xlabel('Tanggal')
 plt.ylabel('Rupiah (IDR)')
 plt.xticks(rotation = 45)
 
 label = ['PT XL Axiata Tbk', 'PT Smartfren Telecom Tbk', 'PT Indosat Tbk', 'PT Telekomunikasi Indonesia Tbk']
-plt.legend(label, loc = 0)
+plt.legend(label, loc = 'upper center', bbox_to_anchor = (0.5, 1.05), ncol = 4, frameon = False)
 
 plt.show()

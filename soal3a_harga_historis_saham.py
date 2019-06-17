@@ -16,12 +16,12 @@ plt.plot(smart['Date'], smart['Close'], color = 'cyan', label = 'PT Smartfren Te
 plt.plot(indosat['Date'], indosat['Close'], color = 'blue', label = 'PT Indosat Tbk')
 plt.plot(telkom['Date'], telkom['Close'], color = 'red', label = 'PT Telekomunikasi Indonesia Tbk')
 
-plt.title('Harga Historis Saham Provider Telco Indonesia')
+plt.suptitle('Harga Historis Saham Provider Telco Indonesia')
 plt.xlabel('Tanggal')
 plt.ylabel('Rupiah (IDR)')
 plt.xticks(rotation = 45)
 
 label = ['PT XL Axiata Tbk', 'PT Smartfren Telecom Tbk', 'PT Indosat Tbk', 'PT Telekomunikasi Indonesia Tbk']
-plt.legend(label, loc = 0)
+plt.legend(label, loc = 'upper center', bbox_to_anchor = (0.5, 1.05), ncol = 4, frameon = False)
 
 plt.show()
