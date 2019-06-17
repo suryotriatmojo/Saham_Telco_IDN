@@ -40,4 +40,4 @@ PT Telekomunikasi Indonesia Tbk|[TLKM.JK.csv](./dataSaham/TLKM.JK.csv)
 [Google+](https://plus.google.com/u/0/+LintangWisesa1) |
 [Youtube](https://www.youtube.com/user/lintangbagus) | 
 :octocat: [GitHub](https://github.com/LintangWisesa) |
-[Hackster](https://www.hackster.io/lintangwisesa)
+[Hackster](https://www.hackster.io/lintangwisesa)# Saham_Telco_IDN
